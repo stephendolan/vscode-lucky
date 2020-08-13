@@ -2,8 +2,7 @@
 
 All notable changes to the "lucky" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
+## [v1.0.0]
 
 - Initial release
+- Basic commands to navigate between Action, Operation, Model, and Page files
