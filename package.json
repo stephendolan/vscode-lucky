@@ -3,10 +3,11 @@
   "publisher": "stephendolan",
   "displayName": "Lucky",
   "description": "Supercharge your Crystal Lucky web development!",
+  "icon": "images/logo.png",
   "repository": {
     "url": "https://github.com/stephendolan/vscode-lucky"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.48.0"
   },
