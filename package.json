@@ -1,5 +1,6 @@
 {
   "name": "lucky",
+  "publisher": "stephendolan",
   "displayName": "Lucky",
   "description": "Supercharge your Crystal Lucky web development!",
   "version": "0.0.1",
@@ -10,14 +11,49 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:lucky.helloWorld"
+    "onCommand:lucky.editModel",
+    "onCommand:lucky.editOperation",
+    "onCommand:lucky.editAction",
+    "onCommand:lucky.editPage"
   ],
   "main": "./out/extension.js",
   "contributes": {
+    "menus": {
+      "commandPalette": [
+        {
+          "command": "lucky.editModel",
+          "when": "editorLangId == crystal"
+        },
+        {
+          "command": "lucky.editOperation",
+          "when": "editorLangId == crystal"
+        },
+        {
+          "command": "lucky.editAction",
+          "when": "editorLangId == crystal"
+        },
+        {
+          "command": "lucky.editPage",
+          "when": "editorLangId == crystal"
+        }
+      ]
+    },
     "commands": [
       {
-        "command": "lucky.helloWorld",
-        "title": "Hello World"
+        "command": "lucky.editModel",
+        "title": "Lucky - Open Model"
+      },
+      {
+        "command": "lucky.editOperation",
+        "title": "Lucky - Open Operation"
+      },
+      {
+        "command": "lucky.editAction",
+        "title": "Lucky - Open Action"
+      },
+      {
+        "command": "lucky.editPage",
+        "title": "Lucky - Open Page"
       }
     ]
   },
