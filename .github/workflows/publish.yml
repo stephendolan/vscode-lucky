@@ -3,25 +3,25 @@ name: Publish
 on:
   push:
     branches:
-    - master
+      - master
   release:
     types:
-    - created
+      - created
 
 jobs:
   publish:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-      
-    - uses: actions/setup-node@v1
-      with:
-        node-version: "14"
+      - uses: actions/checkout@v2
 
-    - run: npm install
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "14"
 
-    - name: Publish
-      run: npm run deploy
-      env:
-        VSCE_PAT: ${{ secrets.VSCE_PAT }}
+      - run: npm install
+
+      - name: Publish
+        run: npm run deploy
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_PAT }}
