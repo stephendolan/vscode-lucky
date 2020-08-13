@@ -1,5 +1,7 @@
 # VSCode Lucky
 
+![CI](https://github.com/stephendolan/vscode-lucky/workflows/CI/badge.svg)
+
 Supercharge your Lucky development in VSCode!
 
 ## Features
