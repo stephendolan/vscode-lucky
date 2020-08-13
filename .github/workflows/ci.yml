@@ -7,7 +7,7 @@ on:
     branches: [master]
 
 jobs:
-  lint:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -16,12 +16,8 @@ jobs:
       - name: Prettify code
         uses: creyD/prettier_action@v2.2
         with:
-          # This part is also where you can pass other options, for example:
-          prettier_options: --write .        
-          
-  deploy:  
-    runs-on: ubuntu-latest
-    steps:
+          prettier_options: --write .
+
       - name: Publish
         run: npm run deploy
         env:
