@@ -3,12 +3,11 @@ name: CI
 on:
   push:
     branches: [master]
-  release:
-    types:
-      - created
+  pull_request:
+    branches: [master]
 
 jobs:
-  lint_and_deploy:
+  lint:
     runs-on: ubuntu-latest
 
     steps:
@@ -18,14 +17,3 @@ jobs:
         uses: creyD/prettier_action@v2.2
         with:
           prettier_options: --write .
-
-      - uses: actions/setup-node@v1
-        with:
-          node-version: "14"
-
-      - run: npm install
-
-      - name: Publish
-        run: npm run deploy
-        env:
-          VSCE_PAT: ${{ secrets.VSCE_PAT }}
