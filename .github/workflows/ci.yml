@@ -7,7 +7,7 @@ on:
     branches: [master]
 
 jobs:
-  deploy:
+  lint_and_deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -17,6 +17,12 @@ jobs:
         uses: creyD/prettier_action@v2.2
         with:
           prettier_options: --write .
+
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "14"
+
+      - run: npm install
 
       - name: Publish
         run: npm run deploy
