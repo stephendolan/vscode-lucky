@@ -56,8 +56,8 @@
   resolved "https://registry.yarnpkg.com/@types/pluralize/-/pluralize-0.0.29.tgz#6ffa33ed1fc8813c469b859681d09707eb40d03c"
 
 "@types/vscode@^1.48.0":
-  version "1.47.0"
-  resolved "https://registry.yarnpkg.com/@types/vscode/-/vscode-1.47.0.tgz#4a4051c21ecaadcf383a2c4387bea282540e96de"
+  version "1.48.0"
+  resolved "https://registry.yarnpkg.com/@types/vscode/-/vscode-1.48.0.tgz#c1841ccf80086d53b35a9d7f2eb3b4d949bd2d2f"
 
 "@typescript-eslint/eslint-plugin@^3.8.0":
   version "3.9.0"
