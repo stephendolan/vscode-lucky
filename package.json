@@ -8,12 +8,12 @@
   "repository": {
     "url": "https://github.com/stephendolan/vscode-lucky"
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "engines": {
     "vscode": "^1.48.0"
   },
   "categories": [
-    "Other"
+    "Programming Languages"
   ],
   "activationEvents": [
     "onCommand:lucky.editModel",
