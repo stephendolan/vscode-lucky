@@ -4,6 +4,7 @@
   "displayName": "Lucky",
   "description": "Supercharge your Crystal Lucky web development!",
   "icon": "images/logo.png",
+  "license": "MIT",
   "repository": {
     "url": "https://github.com/stephendolan/vscode-lucky"
   },
