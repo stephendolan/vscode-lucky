@@ -8,7 +8,7 @@
   "repository": {
     "url": "https://github.com/stephendolan/vscode-lucky"
   },
-  "version": "1.0.5",
+  "version": "1.1.0",
   "engines": {
     "vscode": "^1.48.0"
   },
@@ -19,7 +19,8 @@
     "onCommand:lucky.editModel",
     "onCommand:lucky.editOperation",
     "onCommand:lucky.editAction",
-    "onCommand:lucky.editPage"
+    "onCommand:lucky.editPage",
+    "onCommand:lucky.convertHtml"
   ],
   "main": "./out/extension.js",
   "contributes": {
@@ -59,6 +60,10 @@
       {
         "command": "lucky.editPage",
         "title": "Lucky - Open Page"
+      },
+      {
+        "command": "lucky.convertHtml",
+        "title": "Lucky - Convert HTML"
       }
     ]
   },
@@ -88,6 +93,7 @@
     "vscode-test": "^1.4.0"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "pluralize": "^8.0.0"
   }
 }
