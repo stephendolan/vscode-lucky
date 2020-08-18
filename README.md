@@ -11,7 +11,6 @@ Supercharge your [Lucky](https://luckyframework.org) development in VSCode!
 | `Lucky - Extract Method` | Pull the selected page content into a private class method. |
 
 <br/>
-<br/>
 
 ![HTML Conversion](images/method_extraction.gif)
 
@@ -24,7 +23,6 @@ Supercharge your [Lucky](https://luckyframework.org) development in VSCode!
 | `Lucky - Open Action`    | Open the relevant Lucky action from a page file.                      |
 | `Lucky - Open Page`      | Open the relevant Lucky page from an action file.                     |
 
-<br/>
 <br/>
 
 ![Navigation](images/navigation.gif)
