@@ -11,9 +11,18 @@ Supercharge your [Lucky](https://luckyframework.org) development in VSCode!
 | `Lucky - Convert HTML` | Replaces selected HTML text using the [Lucky HTML Converter](https://luckyframework.org/html). |
 
 <br/>
-<br/>
 
 ![HTML Conversion](images/html_conversion.gif)
+
+## Lucky Page Extraction Commands
+
+| Command                  | Description                                                 |
+| ------------------------ | ----------------------------------------------------------- |
+| `Lucky - Extract Method` | Pull the selected page content into a private class method. |
+
+<br/>
+
+![HTML Conversion](images/method_extraction.gif)
 
 ## Navigation Commands
 
@@ -24,7 +33,6 @@ Supercharge your [Lucky](https://luckyframework.org) development in VSCode!
 | `Lucky - Open Action`    | Open the relevant Lucky action from a page file.                      |
 | `Lucky - Open Page`      | Open the relevant Lucky page from an action file.                     |
 
-<br/>
 <br/>
 
 ![Navigation](images/navigation.gif)

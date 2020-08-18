@@ -20,7 +20,8 @@
     "onCommand:lucky.editOperation",
     "onCommand:lucky.editAction",
     "onCommand:lucky.editPage",
-    "onCommand:lucky.convertHtml"
+    "onCommand:lucky.convertHtml",
+    "onCommand:lucky.extractMethod"
   ],
   "main": "./out/extension.js",
   "contributes": {
@@ -40,6 +41,10 @@
         },
         {
           "command": "lucky.editPage",
+          "when": "editorLangId == crystal"
+        },
+        {
+          "command": "lucky.extractMethod",
           "when": "editorLangId == crystal"
         }
       ]
@@ -64,6 +69,10 @@
       {
         "command": "lucky.convertHtml",
         "title": "Lucky - Convert HTML"
+      },
+      {
+        "command": "lucky.extractMethod",
+        "title": "Lucky - Extract Method"
       }
     ]
   },
@@ -78,13 +87,13 @@
   },
   "devDependencies": {
     "@types/glob": "^7.1.3",
-    "@types/mocha": "^8.0.0",
-    "@types/node": "^14.0.27",
+    "@types/mocha": "^8.0.3",
+    "@types/node": "^14.6.0",
     "@types/pluralize": "^0.0.29",
     "@types/vscode": "^1.48.0",
-    "@typescript-eslint/eslint-plugin": "^3.8.0",
-    "@typescript-eslint/parser": "^3.8.0",
-    "eslint": "^7.6.0",
+    "@typescript-eslint/eslint-plugin": "^3.9.1",
+    "@typescript-eslint/parser": "^3.9.1",
+    "eslint": "^7.7.0",
     "glob": "^7.1.6",
     "mocha": "^8.0.1",
     "prettier": "^2.0.5",
