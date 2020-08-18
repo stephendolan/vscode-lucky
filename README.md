@@ -13,7 +13,7 @@ Supercharge your [Lucky](https://luckyframework.org) development in VSCode!
 <br/>
 <br/>
 
-![HTML Conversion](images/html_conversion.gif)
+![HTML Conversion](images/method_extraction.gif)
 
 ## Navigation Commands
 
