@@ -8,7 +8,7 @@
   "repository": {
     "url": "https://github.com/stephendolan/vscode-lucky"
   },
-  "version": "1.0.5",
+  "version": "1.1.0",
   "engines": {
     "vscode": "^1.48.0"
   },
@@ -19,7 +19,8 @@
     "onCommand:lucky.editModel",
     "onCommand:lucky.editOperation",
     "onCommand:lucky.editAction",
-    "onCommand:lucky.editPage"
+    "onCommand:lucky.editPage",
+    "onCommand:lucky.extractMethod"
   ],
   "main": "./out/extension.js",
   "contributes": {
@@ -40,6 +41,10 @@
         {
           "command": "lucky.editPage",
           "when": "editorLangId == crystal"
+        },
+        {
+          "command": "lucky.extractMethod",
+          "when": "editorLangId == crystal"
         }
       ]
     },
@@ -59,6 +64,10 @@
       {
         "command": "lucky.editPage",
         "title": "Lucky - Open Page"
+      },
+      {
+        "command": "lucky.extractMethod",
+        "title": "Lucky - Extract Method"
       }
     ]
   },

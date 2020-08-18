@@ -4,7 +4,18 @@
 
 Supercharge your [Lucky](https://luckyframework.org) development in VSCode!
 
-## Features
+## Lucky Page Extraction Commands
+
+| Command                  | Description                                                 |
+| ------------------------ | ----------------------------------------------------------- |
+| `Lucky - Extract Method` | Pull the selected page content into a private class method. |
+
+<br/>
+<br/>
+
+![HTML Conversion](images/html_conversion.gif)
+
+## Navigation Commands
 
 | Command                  | Description                                                           |
 | ------------------------ | --------------------------------------------------------------------- |
@@ -16,4 +27,4 @@ Supercharge your [Lucky](https://luckyframework.org) development in VSCode!
 <br/>
 <br/>
 
-![feature X](images/lucky.gif)
+![Navigation](images/navigation.gif)
