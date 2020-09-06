@@ -1594,6 +1594,7 @@ v8-compile-cache@^2.0.3:
 vsce@^1.79.5:
   version "1.79.5"
   resolved "https://registry.yarnpkg.com/vsce/-/vsce-1.79.5.tgz#622d947aed97632d460e68ec774eac41f550102d"
+  integrity sha512-KZFOthGwxWFwoGqwrkzfTfyCZGuniTofnJ1a/dCzQ2HP93u1UuCKrTQyGT+SuGHu8sNqdBYNe0hb9GC3qCN7fg==
   dependencies:
     azure-devops-node-api "^7.2.0"
     chalk "^2.4.2"
