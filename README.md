@@ -1,6 +1,9 @@
 # VSCode Lucky
 
 ![CI](https://github.com/stephendolan/vscode-lucky/workflows/CI/badge.svg)
+![Package Version](https://vsmarketplacebadge.apphb.com/version-short/stephendolan.lucky.svg)
+![Package Downloads](https://vsmarketplacebadge.apphb.com/installs/stephendolan.lucky.svg)
+![Package Rating](https://vsmarketplacebadge.apphb.com/rating-star/stephendolan.lucky.svg)
 
 Supercharge your [Lucky](https://luckyframework.org) development in VSCode!
 
