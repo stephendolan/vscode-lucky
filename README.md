@@ -4,6 +4,16 @@
 
 Supercharge your [Lucky](https://luckyframework.org) development in VSCode!
 
+## HTML Conversion Commands
+
+| Command                | Description                                                                                    |
+| ---------------------- | ---------------------------------------------------------------------------------------------- |
+| `Lucky - Convert HTML` | Replaces selected HTML text using the [Lucky HTML Converter](https://luckyframework.org/html). |
+
+<br/>
+
+![HTML Conversion](images/html_conversion.gif)
+
 ## Lucky Page Extraction Commands
 
 | Command                  | Description                                                 |

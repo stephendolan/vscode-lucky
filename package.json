@@ -20,6 +20,7 @@
     "onCommand:lucky.editOperation",
     "onCommand:lucky.editAction",
     "onCommand:lucky.editPage",
+    "onCommand:lucky.convertHtml",
     "onCommand:lucky.extractMethod"
   ],
   "main": "./out/extension.js",
@@ -66,6 +67,10 @@
         "title": "Lucky - Open Page"
       },
       {
+        "command": "lucky.convertHtml",
+        "title": "Lucky - Convert HTML"
+      },
+      {
         "command": "lucky.extractMethod",
         "title": "Lucky - Extract Method"
       }
@@ -97,6 +102,7 @@
     "vscode-test": "^1.4.0"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "pluralize": "^8.0.0"
   }
 }
