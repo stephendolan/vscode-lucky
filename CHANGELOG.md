@@ -3,6 +3,7 @@
 All notable changes to the "lucky" extension will be documented in this file.
 
 ## [v1.2.1]
+
 - Added new badges with package information to README documentation.
 
 ## [v1.2.0]
