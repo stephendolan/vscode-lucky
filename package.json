@@ -95,7 +95,7 @@
     "@typescript-eslint/parser": "^3.10.1",
     "eslint": "^7.12.1",
     "glob": "^7.1.6",
-    "mocha": "^8.2.0",
+    "mocha": "^8.2.1",
     "prettier": "^2.1.2",
     "typescript": "^4.0.5",
     "vsce": "^1.81.1",
