@@ -102,7 +102,7 @@
     "vscode-test": "^1.4.1"
   },
   "dependencies": {
-    "axios": "^0.21.0",
+    "axios": "^0.21.1",
     "pluralize": "^8.0.0"
   }
 }
