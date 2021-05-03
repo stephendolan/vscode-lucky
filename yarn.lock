@@ -92,10 +92,10 @@
   version "0.0.29"
   resolved "https://registry.yarnpkg.com/@types/pluralize/-/pluralize-0.0.29.tgz#6ffa33ed1fc8813c469b859681d09707eb40d03c"
 
-"@types/vscode@^1.54.0":
-  version "1.54.0"
-  resolved "https://registry.yarnpkg.com/@types/vscode/-/vscode-1.54.0.tgz#d28e3b3614054b2d6543c29412f60a986cabd9bb"
-  integrity sha512-sHHw9HG4bTrnKhLGgmEiOS88OLO/2RQytUN4COX9Djv81zc0FSZsSiYaVyjNidDzUSpXsySKBkZ31lk2/FbdCg==
+"@types/vscode@^1.55.0":
+  version "1.55.0"
+  resolved "https://registry.yarnpkg.com/@types/vscode/-/vscode-1.55.0.tgz#58cfbebbd32b3e374e07e7858b1fd0e92b1a1d2b"
+  integrity sha512-49hysH7jneTQoSC8TWbAi7nKK9Lc5osQNjmDHVosrcU8o3jecD9GrK0Qyul8q4aGPSXRfNGqIp9CBdb13akETg==
 
 "@typescript-eslint/eslint-plugin@^4.22.0":
   version "4.22.0"
