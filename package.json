@@ -91,7 +91,7 @@
     "@types/node": "^15.0.2",
     "@types/pluralize": "^0.0.29",
     "@types/vscode": "^1.56.0",
-    "@typescript-eslint/eslint-plugin": "^4.22.1",
+    "@typescript-eslint/eslint-plugin": "^4.23.0",
     "@typescript-eslint/parser": "^4.22.1",
     "eslint": "^7.26.0",
     "glob": "^7.1.7",
