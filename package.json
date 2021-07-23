@@ -87,7 +87,7 @@
   },
   "devDependencies": {
     "@types/glob": "^7.1.4",
-    "@types/mocha": "^8.2.3",
+    "@types/mocha": "^9.0.0",
     "@types/node": "^16.4.1",
     "@types/pluralize": "^0.0.29",
     "@types/vscode": "^1.58.1",
