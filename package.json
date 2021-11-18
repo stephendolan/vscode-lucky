@@ -97,7 +97,7 @@
     "glob": "^7.2.0",
     "mocha": "^9.1.3",
     "prettier": "^2.4.1",
-    "typescript": "^4.4.4",
+    "typescript": "^4.5.2",
     "vsce": "^2.3.0",
     "vscode-test": "^1.6.1"
   },
