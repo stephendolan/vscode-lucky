@@ -86,7 +86,7 @@
     "deploy": "vsce publish --yarn"
   },
   "devDependencies": {
-    "@types/glob": "^7.2.0",
+    "@types/glob": "^8.0.0",
     "@types/mocha": "^9.1.1",
     "@types/node": "^18.7.14",
     "@types/pluralize": "^0.0.29",
